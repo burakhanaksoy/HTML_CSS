@@ -1,0 +1,5 @@
+One main difference between spands and divs is that 
+
+--> spans are in-line containers.. Meaning that they do not cover the entire width of the web page
+
+--> divs are block containers.. Meaning that they do cover the entire width of the web page
