@@ -1,0 +1,39 @@
+.container {
+  width: 500px;
+  height: 120px;
+  background: #ccc;
+  align-items: center;
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: center;
+}
+.card {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  background: aquamarine;
+  border-radius: 50%;
+  border: 5px solid red;
+}
+.logo:hover {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 3rem;
+  border: 5px solid red;
+}
+.text {
+  font-size: 2rem;
+  border: 5px solid red;
+  flex-grow: 1;
+}

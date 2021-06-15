@@ -1,0 +1,60 @@
+.container {
+  background-color: #ccc;
+  height: 100px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.buttons {
+  display: flex;
+  background-color: rgb(201, 179, 179);
+  height: 40px;
+  width: 400px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.timeline {
+  display: flex;
+  background-color: rgb(91, 109, 74);
+  height: 40px;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-left {
+  height: 30px;
+  width: 30px;
+  background-color: aqua;
+}
+.btn-mid {
+  height: 30px;
+  width: 30px;
+  background-color: aqua;
+}
+.btn-right {
+  height: 30px;
+  width: 30px;
+  background-color: aqua;
+}
+.text-left {
+  height: 30px;
+  width: 30px;
+  background-color: aqua;
+}
+
+.chart {
+  height: 30px;
+  width: 30px;
+  background-color: aliceblue;
+  flex-grow: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.text-right {
+  height: 30px;
+  width: 30px;
+  background-color: aqua;
+}

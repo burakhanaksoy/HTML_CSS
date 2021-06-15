@@ -1,0 +1,28 @@
+.container {
+  background-color: #ccc;
+  width: 500px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg {
+  background-color: aqua;
+  height: 20px;
+  width: 20px;
+}
+
+.text {
+  margin-top: 5px;
+}
+
+.svg:hover {
+  cursor: pointer;
+}
