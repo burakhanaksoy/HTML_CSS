@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <p>id selector has precedence over class selector</p>
+      <p>#ul-id{
+        color:red;
+    }
+    <br>
+    .ul-class{
+        color:green;
+    }
+    </p>
+      <ul id="ul-id" class="ul-class">
+        
+          <li>asdas</li>
+          <li>ssss</li>
+      </ul>
+      <p>Even if #ul-id comes first, it doesn't let
+      .ul-class override.</p>
+      <hr>
+      The more specific the selector, the higher the precedence
+      <ul class="ul-class-two">
+        <li>asdas</li>
+        <li>ssss</li>
+      </ul>
+      <p>.ul-class-two li{
+        color:aqua;
+        }
+        <br>
+        .ul-class-two{
+        color:green;
+        }
+        </p>
+        <p><b>.ul-class-two li comes before, but <br> since it
+        is more specific, it doesn't let .ul-class-two<br>
+      override</b></p>
+      <hr>
+      <p>class and id selectors have priority over normal selectors</p>
+      <ul class="ul-class-three">
+        <li>asdas</li>
+        <li>ssss</li>
+      </ul>
+      <p>.ul-class-three{
+        color:blue;
+    }
+    <br>
+    ul{
+        color:yellow;
+    }
+    </p>
+    <p><b>ul-class-three{ color:blue; } comes after <br>
+      ul{ color:yellow; } but doesn't let override.</b></p>
+      <hr>
+      <p><b>Note:</b> It is recommended to use id selector with
+      <br> a single element and class selector with multiple
+    <br>elements.</p>
+    <p>id selector has higher precedence over class selector.</p>
+    
+    </main>
+    <footer></footer>
+  </body>
+</html>

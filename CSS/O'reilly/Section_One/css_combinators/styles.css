@@ -1,0 +1,19 @@
+section p{
+    background-color:red;
+    /*Changes background color of p that is under section*/
+}
+
+section > p{
+    background-color:yellow;
+    /*Changes background color of p that is immediate child of section*/
+}
+
+h1+p{
+    background-color:aqua;
+    /*Changes background color of p coming after and adjacent to h1*/
+}
+
+h1~p{
+    background-color:blueviolet;
+    /*Changes background color of p coming after h1*/
+}

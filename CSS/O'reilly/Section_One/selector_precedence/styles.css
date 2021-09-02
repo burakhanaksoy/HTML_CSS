@@ -1,0 +1,27 @@
+#ul-id{
+    color:red;
+}
+
+.ul-class{
+    color:green;
+}
+
+hr{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.ul-class-two li{
+color:aqua;
+}
+.ul-class-two{
+color:green;
+}
+
+.ul-class-three{
+    color:blue;
+}
+
+ul{
+    color:yellow;
+}
