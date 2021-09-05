@@ -1,0 +1,18 @@
+p{
+    display:inline;
+    color:#fff;
+    
+    font-size: 25px;
+}
+
+.container{
+    text-align:center;
+    border:2px solid red;
+    background-color:rgb(6, 196, 6);
+}
+
+.info p{
+color: rgb(128, 128, 128);
+
+
+}
