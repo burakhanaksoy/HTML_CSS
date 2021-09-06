@@ -1,0 +1,16 @@
+h1::first-letter{
+    font-size: 70px;
+    color:rgb(253, 195, 2);
+    font-style:italic;
+}
+
+h1::before{
+    content:"This is ";
+    color:green;
+}
+
+h1::after{
+    content:' of a WebSite';
+    color:rgb(3, 138, 138);
+    font-size:40px;
+}

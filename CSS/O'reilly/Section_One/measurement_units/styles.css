@@ -1,0 +1,24 @@
+.container{
+    font-size:20px;
+    background-color:orangered;
+    color:aliceblue;
+}
+
+.container-item{
+    background-color:green;
+    width:50%;
+}
+h1{
+    font-size:200%;
+}
+.paragraph{
+font-size: 18px;    
+}
+
+p{
+    font-size: 100%;
+}
+
+li{
+    list-style: numeric;
+}
